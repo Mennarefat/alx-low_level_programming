@@ -3,10 +3,10 @@
 #include<stdio.h>
 /**
 *main-Entry point
-*Description: 'get the last digit of a number'
-*Result:0(success)
+*
+*Return:0(success)
 */
-void main(void)
+int main(void)
 {
 int n, ld;
 srand(time(0));
