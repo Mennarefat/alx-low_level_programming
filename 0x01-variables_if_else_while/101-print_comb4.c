@@ -27,11 +27,11 @@ putchar(',');
 putchar(' ');
 }
 }
-n3++
+n3++;
 }
-n2++
+n2++;
 }
-n1++
+n1++;
 }
 putchar('\n');
 return (0);
