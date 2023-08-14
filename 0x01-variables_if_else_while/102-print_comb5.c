@@ -18,7 +18,7 @@ putchar((fd / 10) + 48);
 putchar((fd % 10) + 48);
 putchar(' ');
 putchar((sd / 10) + 48);
-putchar((sd / 10) + 48);
+putchar((sd % 10) + 48);
 if (fd != 98 || sd != 99)
 {
 putchar(',');
