@@ -25,7 +25,7 @@ return (l);
 */
 int main(void)
 {
-int c, initial0s;
+int count, initial0s;
 unsigned long f1 = 1, f2 = 2, sum, mx = 100000000, f10 = 0, sum0 = 0;
 for (count = 1; count <= 98; count++)
 {
