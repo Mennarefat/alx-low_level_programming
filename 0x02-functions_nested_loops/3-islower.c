@@ -4,7 +4,7 @@
 *
 *@c:checks input of function
 *
-*Return:returns 1 if 'c' iis lowercase otherwise always 0 (success)
+*Return:returns 1 if 'c' is lowercase otherwise always 0 (success)
 */
 int _islower(int c)
 {
