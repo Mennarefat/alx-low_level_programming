@@ -20,7 +20,7 @@ if (p <= 9)
 _putchar(' ');
 if (p <= 99)
 _putchar(' ');
-if (p >= `100)
+if (p >= 100)
 {
 _putchar((p / 100) + 48);
 _putchar((p / 10) % 10 + 48);
