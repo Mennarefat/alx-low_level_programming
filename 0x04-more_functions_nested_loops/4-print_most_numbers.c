@@ -10,7 +10,7 @@ int n;
 for (n = 0; n <= 9; n++)
 {
 if (n == 2 || n == 4)
-break;
+continue;
 _putchar(n + 48);
 }
 _putchar('\n');
