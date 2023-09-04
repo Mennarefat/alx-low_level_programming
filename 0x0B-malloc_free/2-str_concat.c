@@ -20,6 +20,8 @@ i++;
 while (s2[c] != '\0')
 c++;
 concat = malloc(sizeof(char) * (i + c + 1));
+if (concat == NULL)
+return (NULL);
 i = c = 0;
 while (s1[i] != '\0')
 {
@@ -33,7 +35,5 @@ i++, c++;
 }
 concat[i] = '\0';
 return (concat);
-if (concat == NULL)
-return (NULL);
 }
 
