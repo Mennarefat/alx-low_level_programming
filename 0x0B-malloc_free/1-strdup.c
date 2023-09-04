@@ -22,4 +22,5 @@ return (ptr);
 if (str == NULL)
 return (NULL);
 free(ptr);
+return (0);
 }
