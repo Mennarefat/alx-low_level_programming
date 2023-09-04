@@ -20,7 +20,9 @@ for (r = 0; str[r]; r++)
 ptr[r] = str[r];
 return (ptr);
 if (str == NULL)
+{
 return (NULL);
+}
 free(ptr);
 return (0);
 }
