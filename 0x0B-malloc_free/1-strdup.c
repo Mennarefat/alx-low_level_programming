@@ -10,7 +10,7 @@ char *_strdup(char *str)
 {
 unsigned int i = 0;
 int r = 0;
-chr *ptr;
+char *ptr;
 ptr = malloc(sizeof(char) * 2);
 if (ptr != NULL)
 {
