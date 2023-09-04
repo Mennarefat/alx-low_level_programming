@@ -12,7 +12,7 @@ unsigned int i = 0;
 int r = 0;
 char *ptr;
 while (str[i] != '\0')
-i++
+i++;
 ptr = malloc(sizeof(char) * (i + 1));
 if (ptr == NULL)
 return (NULL);
