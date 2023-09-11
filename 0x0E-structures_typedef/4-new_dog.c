@@ -41,12 +41,12 @@ dest[i] = '\0';
 return (dest);
 }
 /**
-* new_dog - creates a new dog
-* @name: name of the dog
-* @age: age of the dog
-* @owner: owner of the dog
+*new_dog - creates a new dog
+*@name: name of the dog
+*@age: age of the dog
+*@owner: owner of the dog
 *
-* Return: pointer to the new dog (Success), NULL otherwise
+*Return: pointer to the new dog (Success), NULL otherwise
 */
 my_dog *new_dog(char *name, float age, char *owner)
 {
